@@ -1,0 +1,114 @@
+textarea#exampleFormControlTextarea1 {
+    border: #918383 1px solid;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+    background-color: white;
+}
+.wrap {
+    margin: 10px 20px 20px 2px;
+}
+.order-stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-stat {
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #B3B7BA;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#one {
+    margin-right: 1rem;
+}
+#two {
+    margin-left: 1rem;
+}
+p {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+input.button.button-danger {
+  border: red 1.99px solid;
+  color: red;
+}
+
+.modal-header{
+  justify-content: center;
+}
+
+/* CSS */
+.button-19 {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.13)), radial-gradient(90% 7% at 50% 8%, rgba(255, 255, 255, 0.47) 25%, rgba(255, 255, 255, 0) 50%), #0053d0;
+  border: 0;
+  border-radius: 0.375em;
+  box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.47), 0 -0.1em 0 0.1em rgba(0, 0, 0, 0.27), 0 0.1em 0 0.1em rgba(255, 255, 255, 0.27), -0.2em 0 0.2em #003f9d inset, 0 0.2em 0.2em rgba(255, 255, 255, 0.27) inset, 0.2em 0 0.2em rgba(255, 255, 255, 0.27) inset, 0 -0.2em 0.2em #003f9d inset;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-right: 30px;
+  padding: 0.75em 1em;
+  text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.47);
+  transition-property: box-shadow;
+  -webkit-tap-highlight-color: transparent;
+}
+.button-19, .button-19 span {
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+.button-19:focus, .button-19 span:focus {
+  outline: none;
+}
+.button-19 span {
+  transition-property: transform;
+  will-change: transform;
+}
+.button-19:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.47), 0 -0.1em 0 0.1em rgba(0, 0, 0, 0.27), 0 0.1em 0 0.1em rgba(255, 255, 255, 0.27), -0.2em 0 0.2em #002a6a inset, 0 0.2em 0.2em rgba(0, 0, 0, 0.27) inset, 0.2em 0 0.2em rgba(0, 0, 0, 0.27) inset, 0 -0.2em 0.2em #002a6a inset;
+}
+.button-19:active span {
+  transform: scale(0.95);
+}
+.button-19:focus {
+  color: #9dc4ff;
+  text-shadow: 0 0 0.2em rgba(157, 196, 255, 0.47);
+}
+
+.reset{
+    background-color: #918383;
+}
+
+
+.button-18 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.13)), radial-gradient(90% 7% at 50% 8%, rgba(141, 140, 140, 0.47) 25%, rgba(255, 255, 255, 0) 50%), #7b7b7c;
+    border: 0;
+    border-radius: 0.375em;
+    box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.47), 0 -0.1em 0 0.1em rgba(0, 0, 0, 0.27), 0 0.1em 0 0.1em rgba(255, 255, 255, 0.27), -0.2em 0 0.2em #565657 inset, 0 0.2em 0.2em rgba(255, 255, 255, 0.27) inset, 0.2em 0 0.2em rgba(255, 255, 255, 0.27) inset, 0 -0.2em 0.2em #494a4b inset;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0.75em 1em;
+    text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.47);
+    transition-property: box-shadow;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .button-18, .button-19 span {
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+  }
+  .button-18:focus, .button-19 span:focus {
+    outline: none;
+  }
+  .button-18 span {
+    transition-property: transform;
+    will-change: transform;
+  }
